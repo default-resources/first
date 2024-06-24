@@ -32,7 +32,7 @@
         {"key": "fontFamily"},
         {"key": "chartData.po5ewapojv.data"}
     ],
-    "leftColumn": 21,
+    "leftColumn": 0,
     "customFusionChartConfig": {
         "type": "column2d",
         "dataSource": {
