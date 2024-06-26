@@ -2,8 +2,8 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "fetch_user_stats",
-    "fullyQualifiedName": "fetch_user_stats",
+    "name": "fetch_user_stats1",
+    "fullyQualifiedName": "fetch_user_stats1",
     "datasource": {
       "name": "Sample Database",
       "pluginId": "postgres-plugin",
@@ -27,7 +27,7 @@
         }
       ]
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -46,7 +46,7 @@
     "userPermissions": [],
     "createdAt": "2024-05-27T09:06:56Z"
   },
-  "gitSyncId": "667bab439735431554f34fce_346a8d3c-616a-408f-a065-bba422c0e98e",
-  "id": "Page1_fetch_user_stats",
+  "gitSyncId": "667bab439735431554f34fce_c6345fb5-8575-4939-ac30-fcc55526edc0",
+  "id": "Page1_fetch_user_stats1",
   "deleted": false
 }
