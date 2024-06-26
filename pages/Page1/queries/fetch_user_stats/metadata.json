@@ -27,7 +27,7 @@
         }
       ]
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -46,7 +46,7 @@
     "userPermissions": [],
     "createdAt": "2024-05-27T09:06:56Z"
   },
-  "gitSyncId": "667bab439735431554f34fce_346a8d3c-616a-408f-a065-bba422c0e98e",
+  "gitSyncId": "6674699a564a67193e90367e_420fa35e-f95f-44c2-959e-af85d8c58df8",
   "id": "Page1_fetch_user_stats",
   "deleted": false
 }

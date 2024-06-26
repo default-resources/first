@@ -29,8 +29,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_fetch_user_stats1",
-              "name": "fetch_user_stats1",
+              "id": "Page1_fetch_user_stats",
+              "name": "fetch_user_stats",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [

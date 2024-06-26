@@ -12,13 +12,13 @@
         "visuals",
         "visualisations"
     ],
-    "bottomRow": 48,
+    "bottomRow": 51,
     "parentRowSpace": 10,
     "type": "CHART_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 24,
     "chartData": {"po5ewapojv": {
-        "data": "{{fetch_user_stats1.data.map((stat) => {\n  return {\n    x: stat.country,\n    y: stat.user_count\n  }\n})}}",
+        "data": "{{fetch_user_stats.data.map((stat) => {\n  return {\n    x: stat.country,\n    y: stat.user_count\n  }\n})}}",
         "seriesName": ""
     }},
     "animateLoading": true,
@@ -32,7 +32,7 @@
         {"key": "fontFamily"},
         {"key": "chartData.po5ewapojv.data"}
     ],
-    "leftColumn": 20,
+    "leftColumn": 0,
     "customFusionChartConfig": {
         "type": "column2d",
         "dataSource": {
@@ -88,7 +88,7 @@
     "rightColumn": 64,
     "thumbnailSVG": "/static/media/thumbnail.98fb19b2c4f99671c0888284cf939f3a.svg",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "widgetId": "pdk10ilwhn",
+    "widgetId": "q08jty6o25",
     "onCanvasUI": {
         "focusBGCSSVar": "--on-canvas-ui-widget-focus",
         "disableParentSelection": false,
@@ -99,7 +99,7 @@
     "minWidth": 450,
     "isVisible": true,
     "version": 1,
-    "parentId": "21eydk350e",
+    "parentId": "gko9pwkoxx",
     "tags": ["Display"],
     "labelOrientation": "auto",
     "isLoading": false,
