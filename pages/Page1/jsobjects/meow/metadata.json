@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "66851f1c26a2616ac0e1d9d8_c1efc0e6-83db-4dda-b825-6404eebe8780",
+  "id": "Page1_meow",
+  "unpublishedCollection": {
+    "name": "meow",
+    "pageId": "Page1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[\"1\", \"2\", \"3\"]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  }
+}
