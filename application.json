@@ -13,6 +13,7 @@
   "icon": "rose",
   "pages": [
     {
+      "baseId": "Page1",
       "id": "Page1",
       "isDefault": true
     }
