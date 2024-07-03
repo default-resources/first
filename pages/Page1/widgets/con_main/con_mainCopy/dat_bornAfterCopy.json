@@ -2,12 +2,12 @@
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 59,
+  "bottomRow": 16,
   "boxShadow": "none",
   "closeOnSelection": true,
-  "dateFormat": "YYYY-MM-DD HH:mm",
+  "dateFormat": "LL",
   "datePickerType": "DATE_PICKER",
-  "defaultDate": "2024-06-27T02:22:41.010Z",
+  "defaultDate": "1980-01-01",
   "displayName": "DatePicker",
   "dynamicBindingPathList": [
     {
@@ -18,44 +18,49 @@
     }
   ],
   "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "defaultDate"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onDateSelected"
+    }
+  ],
   "firstDayOfWeek": 0,
   "hideCard": false,
-  "iconSVG": "/static/media/icon.4c94d9b859c11557d7a5d801df99e8d5.svg",
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.c0c4b770ee1862b73198267331d1611c.svg",
   "isDeprecated": false,
   "isDisabled": false,
   "isLoading": false,
   "isRequired": false,
   "isVisible": true,
-  "key": "jn3onjqxs6",
-  "label": "Label",
+  "key": "bbdoibhz1a",
+  "label": "Born After",
   "labelAlignment": "left",
   "labelPosition": "Top",
   "labelTextSize": "0.875rem",
   "labelWidth": 5,
-  "leftColumn": 4,
+  "leftColumn": 16,
   "maxDate": "2121-12-31T18:29:00.000Z",
   "maxDynamicHeight": 9000,
   "minDate": "1920-12-31T18:30:00.000Z",
   "minDynamicHeight": 4,
   "minWidth": 450,
-  "mobileBottomRow": 59,
-  "mobileLeftColumn": 0,
-  "mobileRightColumn": 16,
-  "mobileTopRow": 52,
-  "needsErrorInfo": false,
-  "onCanvasUI": {
-    "disableParentSelection": false,
-    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
-    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
-    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
-    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
-  },
-  "parentColumnSpace": 8.4765625,
-  "parentId": "gko9pwkoxx",
+  "mobileBottomRow": 15,
+  "mobileLeftColumn": 17,
+  "mobileRightColumn": 37,
+  "mobileTopRow": 8,
+  "onDateSelected": "{{fetch_user_stats1.run()}}",
+  "originalBottomRow": 15,
+  "originalTopRow": 8,
+  "parentColumnSpace": 12.6865234375,
+  "parentId": "t9hs783be3",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 27,
+  "rightColumn": 30,
   "searchTags": [
     "calendar"
   ],
@@ -63,11 +68,10 @@
   "tags": [
     "Inputs"
   ],
-  "thumbnailSVG": "/static/media/thumbnail.6f2ddea04e74f31810326bef3bc239b8.svg",
   "timePrecision": "minute",
-  "topRow": 52,
+  "topRow": 9,
   "type": "DATE_PICKER_WIDGET2",
   "version": 2,
-  "widgetId": "r2zpp5uhr8",
-  "widgetName": "DatePicker1"
+  "widgetId": "2nsoge4lfe",
+  "widgetName": "dat_bornAfterCopy"
 }

@@ -4,12 +4,12 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 112,
+  "bottomRow": 107,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "children": [
     {
       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-      "bottomRow": 1090,
+      "bottomRow": 550,
       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
       "canExtend": false,
       "containerStyle": "none",
@@ -48,7 +48,7 @@
         "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
       },
       "parentColumnSpace": 1,
-      "parentId": "g9m4fwd45a",
+      "parentId": "tn9j9ow21z",
       "parentRowSpace": 1,
       "renderMode": "CANVAS",
       "responsiveBehavior": "fill",
@@ -56,8 +56,8 @@
       "topRow": 0,
       "type": "CANVAS_WIDGET",
       "version": 1,
-      "widgetId": "gko9pwkoxx",
-      "widgetName": "Canvas1"
+      "widgetId": "t9hs783be3",
+      "widgetName": "Canvas1Copy"
     }
   ],
   "containerStyle": "card",
@@ -79,7 +79,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "6zb5acw4sg",
-  "leftColumn": 5,
+  "leftColumn": 32,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 10,
   "minWidth": 450,
@@ -95,14 +95,14 @@
     "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
     "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
   },
-  "originalBottomRow": 119,
-  "originalTopRow": 3,
+  "originalBottomRow": 107,
+  "originalTopRow": 52,
   "parentColumnSpace": 28.734375,
-  "parentId": "0",
+  "parentId": "gko9pwkoxx",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 55,
+  "rightColumn": 63,
   "searchTags": [
     "div",
     "parent",
@@ -113,9 +113,9 @@
     "Layout"
   ],
   "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.6cb355b93146b5347bbb048a568ed446.svg",
-  "topRow": 3,
+  "topRow": 52,
   "type": "CONTAINER_WIDGET",
   "version": 1,
-  "widgetId": "g9m4fwd45a",
-  "widgetName": "con_main"
+  "widgetId": "tn9j9ow21z",
+  "widgetName": "con_mainCopy"
 }
