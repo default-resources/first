@@ -1,0 +1,14 @@
+INSERT INTO public."account" (
+	"external_id",
+	"customer_id",
+	"company.id",
+	"account_manager",
+	"created",
+	"updated")
+VALUES (
+	'{{insert_form.formData.external_id}}',
+	'{{insert_form.formData.customer_id}}',
+	'{{insert_form.formData.company.id}}',
+	'{{insert_form.formData.account_manager}}',
+	'{{insert_form.formData.created}}',
+	'{{insert_form.formData.updated}}');

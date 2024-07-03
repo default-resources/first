@@ -1,0 +1,8 @@
+UPDATE public."account" SET
+		"external_id" = '{{update_form.fieldState.external_id.isVisible ? update_form.formData.external_id : update_form.sourceData.external_id}}',
+		"customer_id" = '{{update_form.fieldState.customer_id.isVisible ? update_form.formData.customer_id : update_form.sourceData.customer_id}}',
+    "company.id" = '{{update_form.fieldState.company.id.isVisible ? update_form.formData.company.id : update_form.sourceData.company.id}}',
+		"account_manager" = '{{update_form.fieldState.account_manager.isVisible ? update_form.formData.account_manager : update_form.sourceData.account_manager}}',
+		"created" = '{{update_form.fieldState.created.isVisible ? update_form.formData.created : update_form.sourceData.created}}',
+		"updated" = '{{update_form.fieldState.updated.isVisible ? update_form.formData.updated : update_form.sourceData.updated}}'
+WHERE "id" = {{data_table.selectedRow.id}};
