@@ -1,23 +1,23 @@
 {
-  "gitSyncId": "6673a84dbc962578e3671d6d_7e722910-6fb2-40c9-9c92-ff34abc39fa9",
+  "gitSyncId": "667d13195e4c1946efdde1c8_4c6eca05-ffe5-4948-82ed-f46914509eb8",
   "unpublishedPage": {
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 640,
+          "bottomRow": 860,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
           "dynamicBindingPathList": [],
           "dynamicTriggerPathList": [],
           "leftColumn": 0,
-          "minHeight": 1292,
+          "minHeight": 900,
           "parentColumnSpace": 1,
           "parentRowSpace": 1,
-          "rightColumn": 4896,
+          "rightColumn": 1174,
           "snapColumns": 64,
-          "snapRows": 124,
+          "snapRows": 125,
           "topRow": 0,
           "type": "CANVAS_WIDGET",
           "version": 89,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "Page1",
-    "slug": "page1"
+    "name": "Public.account",
+    "slug": "public-account"
   }
 }
