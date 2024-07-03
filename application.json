@@ -1,26 +1,26 @@
 {
+  "appIsExample": false,
+  "applicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "navigationSetting": {}
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#CCCCCC",
+  "evaluationVersion": 2,
+  "icon": "rose",
   "pages": [
     {
       "id": "Page1",
       "isDefault": true
     }
   ],
-  "viewMode": false,
-  "appIsExample": false,
-  "unreadCommentThreads": 0,
   "unpublishedApplicationDetail": {
     "appPositioning": {
       "type": "FIXED"
     },
     "navigationSetting": {}
-  },
-  "color": "#CCCCCC",
-  "icon": "rose",
-  "unpublishedCustomJSLibs": [],
-  "publishedCustomJSLibs": [],
-  "evaluationVersion": 2,
-  "applicationVersion": 2,
-  "collapseInvisibleWidgets": true,
-  "isManualUpdate": false,
-  "deleted": false
+  }
 }

@@ -1,75 +1,81 @@
 {
-    "needsErrorInfo": false,
-    "isCompact": false,
-    "boxShadow": "none",
-    "mobileBottomRow": 58,
-    "widgetName": "MenuButton1",
-    "displayName": "Menu button",
-    "iconSVG": "/static/media/icon.5e66a9029af45161f7a3fbfb4262e5ee.svg",
-    "topRow": 54,
-    "bottomRow": 58,
-    "parentRowSpace": 10,
-    "type": "MENU_BUTTON_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 44,
-    "animateLoading": true,
-    "parentColumnSpace": 8.4765625,
-    "leftColumn": 28,
-    "dynamicBindingPathList": [
-        {"key": "menuColor"},
-        {"key": "borderRadius"}
-    ],
-    "isDisabled": false,
-    "key": "by0r02pfzd",
-    "isDeprecated": false,
-    "rightColumn": 44,
-    "thumbnailSVG": "/static/media/thumbnail.57aa4a1b6aaab3ade6ce3bc3a1177531.svg",
-    "menuVariant": "PRIMARY",
-    "widgetId": "6t21srtg0k",
-    "onCanvasUI": {
-        "focusBGCSSVar": "--on-canvas-ui-widget-focus",
-        "disableParentSelection": false,
-        "focusColorCSSVar": "--on-canvas-ui-widget-selection",
-        "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
-        "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 58,
+  "boxShadow": "none",
+  "displayName": "Menu button",
+  "dynamicBindingPathList": [
+    {
+      "key": "menuColor"
     },
-    "menuItems": {
-        "menuItem1": {
-            "widgetId": "",
-            "index": 0,
-            "label": "First Menu Item",
-            "id": "menuItem1",
-            "isVisible": true,
-            "isDisabled": false
-        },
-        "menuItem3": {
-            "widgetId": "",
-            "index": 2,
-            "label": "Third Menu Item",
-            "id": "menuItem3",
-            "isVisible": true,
-            "isDisabled": false
-        },
-        "menuItem2": {
-            "widgetId": "",
-            "index": 1,
-            "label": "Second Menu Item",
-            "id": "menuItem2",
-            "isVisible": true,
-            "isDisabled": false
-        }
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.5e66a9029af45161f7a3fbfb4262e5ee.svg",
+  "isCompact": false,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "by0r02pfzd",
+  "label": "Open Menu",
+  "leftColumn": 28,
+  "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+  "menuItems": {
+    "menuItem1": {
+      "id": "menuItem1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "First Menu Item",
+      "widgetId": ""
     },
-    "isVisible": true,
-    "label": "Open Menu",
-    "version": 1,
-    "parentId": "gko9pwkoxx",
-    "tags": ["Buttons"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 54,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 28,
-    "menuItemsSource": "STATIC",
-    "menuColor": "{{appsmith.theme.colors.primaryColor}}",
-    "placement": "CENTER"
+    "menuItem2": {
+      "id": "menuItem2",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Second Menu Item",
+      "widgetId": ""
+    },
+    "menuItem3": {
+      "id": "menuItem3",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Third Menu Item",
+      "widgetId": ""
+    }
+  },
+  "menuItemsSource": "STATIC",
+  "menuVariant": "PRIMARY",
+  "mobileBottomRow": 58,
+  "mobileLeftColumn": 28,
+  "mobileRightColumn": 44,
+  "mobileTopRow": 54,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "parentColumnSpace": 8.4765625,
+  "parentId": "gko9pwkoxx",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "renderMode": "CANVAS",
+  "rightColumn": 44,
+  "tags": [
+    "Buttons"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.57aa4a1b6aaab3ade6ce3bc3a1177531.svg",
+  "topRow": 54,
+  "type": "MENU_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "6t21srtg0k",
+  "widgetName": "MenuButton1"
 }
