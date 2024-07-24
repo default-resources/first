@@ -13,19 +13,8 @@
   "icon": "rose",
   "pages": [
     {
-      "baseId": "Page1",
       "id": "Page1",
       "isDefault": true
-    },
-    {
-      "baseId": "Public.account",
-      "id": "Public.account",
-      "isDefault": false
-    },
-    {
-      "baseId": "Public.asset",
-      "id": "Public.asset",
-      "isDefault": false
     }
   ],
   "unpublishedApplicationDetail": {

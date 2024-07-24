@@ -1,2 +1,0 @@
-DELETE FROM public."account"
-  WHERE "id" = {{data_table.triggeredRow.id}};

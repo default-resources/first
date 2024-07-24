@@ -1,2 +1,0 @@
-SELECT * from user_data
-WHERE country = {{chart_users.selectedDataPoint?.x || "United States"}}
